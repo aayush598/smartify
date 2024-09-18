@@ -45,6 +45,6 @@ def toggle_button():
     set_button_state(new_state)
     return jsonify({'new_state': new_state})
 
-if __name__ == '__main__':
-    init_db()
-    app.run(debug=True)
+# if __name__ == '__main__':
+#     init_db()
+#     app.run(debug=True)
